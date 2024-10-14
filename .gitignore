@@ -1,5 +1,4 @@
 # sensitive environment information
-.env
 data.pickle
 
 # build and distribution files that are auto-generated
@@ -13,7 +12,6 @@ uploadnotes.txt
 tests/app_tests.py
 
 # generated app info
-.vscode/
 .DS_Store
 .pypirc
 .idea/*
@@ -25,3 +23,5 @@ __pycache__/
 *.so
 *~
 [.]venv
+config.bat
+node_modules
